@@ -18,3 +18,59 @@
 	display: block;
 	margin: 0 auto;
 }
+
+/* Media query - iPhone 6/7/8 */
+@media screen and (max-width: 375px) {
+  .tile {
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+  	border: 2px solid #E13A63;
+    padding: 10px;
+  }
+}
+
+/* Media query - scaling */
+
+@media screen and (min-width: 376px) and (max-width: 972px) {
+  .screenshot {
+    padding-top:30px;
+    height: 90%;
+    width: 90%;
+  }
+
+  .tile {
+  	display: inline-block;
+  	width: 100%;
+  	padding: 10px;
+  	margin-top: 25px;
+  	text-align: center;
+  	border: 2px solid #E13A63;
+  	box-sizing: border-box;
+    clear: both;
+  }
+
+  .tile img	{
+  	display: block;
+  	margin: 10px auto;
+  }
+}
+
+@media screen and (min-width: 973px) {
+  .screenshot {
+    padding-top:30px;
+    height: 90%;
+    width: 90%;
+  }
+
+  .tile {
+  	display: inline-block;
+  	width: 30%;
+  	padding: 10px;
+  	margin-top: 25px;
+  	text-align: center;
+  	border: 2px solid #E13A63;
+  	box-sizing: border-box;
+    overflow-x: hidden;
+  }
+}

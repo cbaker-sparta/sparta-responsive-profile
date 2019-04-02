@@ -45,3 +45,25 @@ body {
 .main-content {
   margin: 0 80px;
 }
+
+/* Media query - iPhone 6/7/8 */
+
+@media screen and (max-width: 375px) {
+  #logo {
+    width:100px;
+    margin:7px;
+  }
+
+  .main-content {
+    margin: 20px;
+  }
+}
+
+/* Media query - scaling */
+
+@media screen and (min-width: 376px) and (max-width: 850px) {
+  #logo {
+    width:100px;
+    margin:7px;
+  }
+}
