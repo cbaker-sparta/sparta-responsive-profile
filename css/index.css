@@ -33,7 +33,7 @@ header, .experience {
 
 /* Media query - iPhone 6/7/8 */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px)  {
 	header {
 		display: inline-block;
 		width: 320px;
@@ -69,4 +69,33 @@ header, .experience {
 		clear: both;
 		text-align: center;
 	}
+}
+
+/* Media query for general screen scaling. */
+
+@media screen and (min-width: 376px) and (max-width: 850px) {
+	header {
+		display: inline-block;
+		width: 100%;
+		position: relative;
+		padding-left: 15px;
+	}
+
+	.left {
+		width: 100%;
+		margin: 20px 5px;
+	}
+
+	.right {
+		width: 100%;
+		margin: 20px 5px;
+	}
+
+	.experience {
+		width: 100%;
+		position: relative;
+		display: inline-block;
+		clear: both;
+		text-align: center;
+  }
 }
